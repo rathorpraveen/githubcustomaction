@@ -1,0 +1,16 @@
+name: 'Dosomething'
+description: 'Do Something'
+
+inputs:
+  username:
+    description: 'user name'
+    required: true
+    default: 'World'
+
+outputs:
+  time:
+    description: 'time'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
