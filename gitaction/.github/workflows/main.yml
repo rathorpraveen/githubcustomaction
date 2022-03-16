@@ -7,7 +7,7 @@ Test_job:
 runs-on: ubuntu-latest
 steps: 
 id: 'hello'
- -uses: githubcustomaction/gitaction
+ - uses: githubcustomaction/gitaction
  with: 
      username: 'Praveen'
      run: echo " The time is ${{ steps.hello.outputs.time }}"
